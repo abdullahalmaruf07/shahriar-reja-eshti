@@ -1,6 +1,7 @@
 body{
     font-family: 'PT Serif', serif;
     margin: 0%;
+    text-align: justify;
 }
 h1{
     font-size: 50px;
@@ -10,13 +11,14 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
 }
 .half-width img{
-    width: 75%%;
+    width: 70%%;
 }
 .facebook{
     text-decoration: none;
@@ -29,4 +31,10 @@ section{
 .top{
     background-image: url(photos/top-banner.png);
     background-repeat: no-repeat;
+}
+.middle{
+    background-image: url(photos/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
